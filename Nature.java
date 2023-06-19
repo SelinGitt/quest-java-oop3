@@ -1,6 +1,12 @@
+import src.Penguin;
+import src.Eagle;
+
 public class Nature {
 
-    public static void main(String[] args) {
+    /**
+     * @param args aucun argument attendu
+     */
+    public static void main(final String[] args) {
 
         Penguin pingou = new Penguin("Pingou");
         pingou.dive();
@@ -12,16 +18,15 @@ public class Nature {
         pingou.getOut();
 
         Eagle hawkeye = new Eagle("Hawkeye");
-        // TODO : uncomment the following code in order to test it
-        /*
+
         hawkeye.takeOff();
         hawkeye.ascend(120);
         hawkeye.ascend(30);
         hawkeye.glide();
         hawkeye.descend(140);
         hawkeye.land();
-        hawkeye.descend(9);
+        hawkeye.descend(10);
         hawkeye.land();
-        */
+
     }
 }

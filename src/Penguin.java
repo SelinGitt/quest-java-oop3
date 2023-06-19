@@ -1,3 +1,5 @@
+package src;
+
 public class Penguin extends Bird implements Swim {
 
     private boolean swimming;
